@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{40f9048b-aa09-40b5-a91d-f37ab3d16bc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UCommon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UException.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UDirect3D11.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UGraphicsPipeline.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UDebugFont..h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pmd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UDirect3D11.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UGraphicsPipeline.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UDebugFont.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pmd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BesicVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\.gitattributes">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\.gitignore">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_Desktop_2013.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_Desktop_2015.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_Desktop_2015_Win10.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_Windows10.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_Windows81.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_WindowsPhone81.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\DirectXTex_XboxOneXDK_2015.sln">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+    <None Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\LICENSE">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\yoshiki\Downloads\DirectXTex-master\DirectXTex-master\ReadMe.txt">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
